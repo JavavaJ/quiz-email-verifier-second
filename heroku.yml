@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: java $JAVA_OPTS -jar -Dserver.port=$PORT Dspring.mail.username=${MAIL_SERVER_USERNAME} Dspring.mail.password=${MAIL_SERVER_PWD} /usr/app/quiz-email-verifier-second.jar
+  web: java $JAVA_OPTS -jar -Dserver.port=$PORT -Dspring.mail.username=${MAIL_SERVER_USERNAME} -Dspring.mail.password=${MAIL_SERVER_PWD} /usr/app/quiz-email-verifier-second.jar
