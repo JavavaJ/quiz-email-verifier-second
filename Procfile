@@ -1,1 +1,0 @@
-web: java $JAVA_OPTS -jar -Dserver.port=$PORT target/quiz-email-verifier-second.jar

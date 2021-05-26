@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: java $JAVA_OPTS -jar -Dserver.port=$PORT /usr/app/quiz-email-verifier-second.jar
